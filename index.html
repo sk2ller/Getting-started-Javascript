@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>shopping cart</title>
+</head>
+<body>
+    <p><a href="#ex1" rel="modal:open"> <i class="fas fa-shopping-cart"></i></a></p>
+
+        <main id="ex1" class="modal">
+            <h3>Shopping Cart</h3>
+            <article>
+                <img src="https://picsum.photos/50/50" alt="article_image">
+                <p>Lorem, ipsum dolor.</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">100</span></p>
+                <span>x</span>
+                <i class="far fa-heart fa-2x"></i>
+            </article>
+            
+            <article>
+                <img src="https://picsum.photos/50/50" alt="article_image">
+                <p>Lorem, ipsum dolor.</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">100</span></p>
+                <span>x</span>
+                <i class="far fa-heart fa-2x"></i>
+            </article>
+
+            <article>
+                <img src="https://picsum.photos/50/50" alt="article_image">
+                <p>Lorem, ipsum dolor.</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">100</span></p>
+                <span>x</span>
+                <i class="far fa-heart fa-2x"></i>
+            </article>
+
+            <article>
+                <img src="https://picsum.photos/50/50" alt="article_image">
+                <p>Lorem, ipsum dolor.</p>
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+                <p>$<span class="money">100</span></p>
+                <span>x</span>
+                <i class="far fa-heart fa-2x"></i>
+            </article>
+
+            <article id="checkout">
+                <p>Total price: $<span id="price"></span></p>
+                <button>Buy now!</button>
+            </article>
+            <a href="#" rel="modal:close">Close</a>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+        <!-- jQuery Modal -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+        <script src="./main.js"></script>
+</body>
+</html>
